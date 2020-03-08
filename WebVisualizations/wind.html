@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+<meta charset = "UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Wind Speed</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+crossorigin="anonymous">
+<link rel="stylesheet" type = "text/css" href= "CustomeStyle.css">
+</head>
+  <body>
+        <!-- Navigation Section -->
+        <div class="navigation">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Latitude</a>
+            <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="max.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humid.html">Humidity</a>
+                    <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                    <a class="dropdown-item active" href="wind.html">Wind Speed</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="compare.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+                </li>  
+    </ul>
+  </div>
+</nav>
+
+<div class = "container">
+    <div class = "row mt-5">
+        <div class = "col-7">
+            <div class="jumbotron">
+                <h1>Wind Speed</h1>
+                <hr class = "my-4">
+                <p class="lead">
+                <img src="assets/images/Fig4.png" alt="Wind Speed" style="width:100%;height:95%;padding:10px;display:block;">
+                </p>
+                <br>
+                <p class ="lead">Next to no relationship between Latitude and Wind Speed although higher winds were observed at higher Northern Latitudes.
+                </p>
+            </div>
+        </div>
+        <div class= "col-5">
+            <div class="jumbotron">
+                <h2>Visualizations</h2>
+                <hr class = "my-4">
+                    <div class = "row">
+                        <div class = "col-6">
+                        <a href="max.html"><img src="assets/images/Fig1.png" alt="Max Temp" style="width:100%;height:90%;display:block;"></a>
+                        </div>
+                        <div class = "col-6">
+                        <a href="humid.html"><img src="assets/images/Fig2.png" alt="Humidity" style="width:100%;height:90%;display:block;"></a>
+                        </div>                       
+                    </div>
+                    <div class = "row">
+                        <div class = "col-6">
+                        <a href="cloud.html"><img src="assets/images/Fig3.png" alt="Cloudiness" style="width:100%;height:90%;display:block;"></a>
+                        </div>
+                        <div class = "col-6">
+                        <a href="wind.html"><img src="assets/images/Fig4.png" alt="Wind Speed" style="width:100%;height:90%;display:block;" class="active-link"></a>
+                        </div>  
+                    </div>                                                    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
